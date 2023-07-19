@@ -1,0 +1,10 @@
+server:
+  port: 9000
+spring:
+  application:
+    name: salary-plate
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: anke
+    url: jdbc:mysql://127.0.0.1:3306/ending_test?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=Asia/Shanghai
